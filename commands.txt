@@ -1,1 +1,13 @@
+To create and configure the package.json
 npm init
+
+//Install as a production dependency locally
+npm install nodemon --save
+
+//Only adds something we use during development
+npm install nodemon --save-dev
+
+//Install globally
+npm install nodemon --g
+
+

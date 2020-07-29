@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Rodrigo Duarte",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
 }
