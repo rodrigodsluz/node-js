@@ -11,9 +11,9 @@ const requestHandler = (req, res) => {
     res.write('</html>')
     return res.end()
   }
-  
+      
   if(url === '/message' && method === 'POST'){
-    const body = []
+    const body = [] 
     req.on('data', (chunk) => {
       console.log(chunk)
       body.push(chunk)
